@@ -1,0 +1,86 @@
+.App {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+.Conatiner {
+  width: 80%;
+  margin: 1px auto;
+  border: 0.5px solid black;
+  background-image: url("https://image.freepik.com/free-vector/elegant-cloud-background-blue-sky-design_1017-25503.jpg");
+  background-size: cover;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+.FormData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  height: 25vh;
+}
+.LabelData {
+  font-size: 20px;
+}
+.InputData {
+  width: 30%;
+  height: 20px;
+  margin: 20px;
+  padding: 5px;
+  border: 2px solid #74b9ff;
+  border-radius: 10px;
+  outline-style: none;
+  font-size: 20px;
+}
+.Button {
+  width: 6rem;
+  height: 2.3rem;
+  background: #74b9ff;
+  border: 2px solid #74b9ff;
+  border-radius: 5px;
+  color: #fff;
+  margin: 20px;
+  font-size: 20px;
+}
+.btn {
+  background-color: #ff7675;
+  border: 2px solid #ff7675;
+}
+.Button:hover {
+  background: #0000;
+  color: #74b9ff;
+}
+.Results {
+  width: 80%;
+  margin: 10px auto;
+}
+.Temperature {
+  font-size: 70px;
+  margin: 0;
+}
+.Results table {
+  width: 80%;
+  margin: 5px auto;
+}
+.Results table tr td {
+  padding: 20px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 400;
+}
+.icon {
+  width: 10%;
+  height: 10%;
+  transition: 2s;
+  animation: ease-in 2s;
+}
+tr > td:nth-child(odd) {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #0001;
+}
